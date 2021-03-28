@@ -42,6 +42,45 @@ It's very important to give meaningful names to variables, functions, packages e
 - Unit tests need to be written for all functions so any changes down that road can be done with peace of mind
 - Unit testing saves time and also reduces code complexity
 
+# **Task Estimation in Scrum**
+
+## **Estimation Techniques**
+
+## Story Points
+
+## Planning Poker
+- Planning poker is where each member of a team are given a set of cards. 
+- Normally the cards will have numbers on them that are based on the Fibonacci sequence. 
+- The product owner goes through each story point with the group with everyone holding up a card for each one to give their estimate of how much effort it takes to complete each story. 
+- Team members with uncommon numbers will give their opinion on why they chose their number. 
+- After these discussions the team re-estimates the story point until they agree and the result is recorded.
+- Being restricted to 9 numbers speeds up the estimation process a lot. 
+- This technique focuses on smaller features, higher estimates are usually not well understood and get re-estimated another time. 
+- It gets every team member involved in the decision making process and this leads to more accurate results.
+- A lack of appropriate acceptance criteria can make this technique difficult.
+
+## T-Shirt Sizes
+- This is a simple technique thats quick and easy to get started. 
+- It involves grouping together tasks of similar sizes. 
+- Tasks are labelled using t-shirt sizes Extra Small(XS), Small(S), Medium(M), Large(L) and Extra Large(XL). 
+- It cannot be assosiated with a specific time which makes it very effective because when an estimate is asociated with time, people feel pressured into being as accurate as possible.
+
+## The Bucket System
+- This technique is usually used when a larger number of people are involved in the estimation process or there is a large number of items to b estimated.
+- Tasks are placed in appropriate buckets based on the estimates of the diffreent team members. 
+- This makes estimation in big groups faster.
+
+## Large Uncertain Small
+- This is where the team groups the items into different categories.
+- Starting off with the extreme ones first, the items are put into Large, Uncertain or Small.
+- This technique is better used in smaller teams with similar items.
+
+## Dot Voting
+- When dealing with only a handful of items (usualy less than 10) and you want to keep things simple use this technique.
+- Team members use stickers to vote on each of the different items.
+- This is very efficient for estimating a small number of tasks without using more complicated techniques.
+
+
 ## Resources:
 
 - https://medium.com/@psengayire/the-importance-of-coding-standards-and-conventions-in-the-software-development-team-how-they-can-5d252556a05#:~:text=Coding%20standards%20are%20collections%20of,methods%20for%20a%20programming%20language.&text=Without%20the%20coding%20conventions%2C%20every,code%20in%20the%20near%20future.
