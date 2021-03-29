@@ -43,10 +43,33 @@ It's very important to give meaningful names to variables, functions, packages e
 - Unit testing saves time and also reduces code complexity
 
 # **Task Estimation in Scrum**
+When using scrum, one of the main problems encountered is how to estimate the size and measure the velocity for a project or task. Task estimation is a process that helps solve this problem by creating an estimation using techniques based on the effort needed to complete the work and the duration it will take to be completed. Task estimation can provide us with:
+- More control over sprints.
+- Prevent over and under committing to tasks.
+- Provides transparency on how much work there is left to do.
+- Measure the overall projects success.
+
+There is many different methods to help us accurately create an estimation as outlined below, each having their on advantages depending on the project and team. However when implementing them we must be careful and only use the most relevant data to ensure our estimations are accurate, otherwise we may face future problems such as:
+- missed deadlines
+- bottlenecks
+- roadblocks
+- scope creep
 
 ## **Estimation Techniques**
 
+
 ## Story Points
+- Story points are a unit for measuring an estimation on the overall effort required to implement a feature.
+- For each story point created we assign a value to it.  The values must be relative to other story points so for example a story that has been assigned a value of 2 must be twice as much work as a story assigned a value of 1.
+- The amount of story points completed per iteration will define the teams velocity.
+- To create a story point estimation, there are 3 main considerations for the task being estimated:
+  - The risk involved with the project
+  - The complexity of developing a feature
+  - Repetiton of certain tasks within development
+- If something changes such as requiremnts for the feature then the task should be re-estimated.
+- If a story has a high estimation, there will be a high degree of uncertainty with it. Therefore it is better to break these featues down into smaller stories where possible. 
+-  Very small stories should be grouped. If a story is less than a 1 but being assigned a 1 it can give the team a false sense of success as it appears more work is being done.
+- It is important that estimation is done with the whole team, meaning that those who will be carrying out the work will be involved in the estimation.
 
 ## Planning Poker
 - Planning poker is where each member of a team are given a set of cards. 
@@ -81,7 +104,12 @@ It's very important to give meaningful names to variables, functions, packages e
 - This is very efficient for estimating a small number of tasks without using more complicated techniques.
 
 
-## Resources:
+
+
+
+## **Resources**
+
+### Coding Standards
 
 - https://medium.com/@psengayire/the-importance-of-coding-standards-and-conventions-in-the-software-development-team-how-they-can-5d252556a05#:~:text=Coding%20standards%20are%20collections%20of,methods%20for%20a%20programming%20language.&text=Without%20the%20coding%20conventions%2C%20every,code%20in%20the%20near%20future.
 
@@ -92,3 +120,11 @@ It's very important to give meaningful names to variables, functions, packages e
 - https://rhamedy.medium.com/a-short-summary-of-java-coding-best-practices-31283d0167d3
 
 - https://www.multidots.com/importance-of-code-quality-and-coding-standard-in-software-development/
+
+
+### Task Estimation
+- https://www.projectmanagement.com/blog/blogPostingView.cfm?
+- https://www.knowledgehut.com/blog/agile/top-5-scrum-estimation-techniques-find-your-best-fit
+- https://endjin.com/blog/2019/02/a-beginners-guide-to-agile-estimation-and-planning
+- https://www.pmi.org/learning/library/agile-project-estimation-techniques-6110
+- https://www.lucidchart.com/blog/how-to-estimate-agile-story-points
