@@ -105,6 +105,26 @@ There is many different methods to help us accurately create an estimation as ou
 
 
 
+# **Code Reviews**
+A code review is when one member of the team checks another members code to examine it for areas which could improve such as finding bugs or errors and improving code quality.  Code reviews should be integrated into the teams existing process, for example if the team are using task branching workflows then the code review should be conducted before the code is merged. Reviewing a codebase makes sure that every software or new feature developed is of high quality. It is a crucial part of software quality assurance that provides many benefits to the development lifecycle. 
+
+## **Benefits of Code Reviews**
+
+-	Helps to identify bugs early which saves time and resources in the long term.
+-	Developers share knowledge with each other allowing them to improve and write better code. This also helps young developers improve their skills and coding ability. 
+-	Improves the quality of code making it easier for others to collaborate. 
+-	Optimises the code for better performance.
+-	Helps maintain a level of consistency in software design and implementation.
+-	Improves Team cohesion as code reviews help generate discussions around the project and get team members working together.
+
+
+<p align="center">
+  <img src="https://www.dotnetcurry.com/images/software-gardening/code-reviews/code-review-benefits.jpg"
+        alt="Markdown Monster icon" width="350"/>
+</p>
+
+
+## **Code Review Techniques**
 
 
 ## **Resources**
@@ -124,7 +144,22 @@ There is many different methods to help us accurately create an estimation as ou
 
 ### Task Estimation
 - https://www.projectmanagement.com/blog/blogPostingView.cfm?
+
 - https://www.knowledgehut.com/blog/agile/top-5-scrum-estimation-techniques-find-your-best-fit
+
 - https://endjin.com/blog/2019/02/a-beginners-guide-to-agile-estimation-and-planning
+
 - https://www.pmi.org/learning/library/agile-project-estimation-techniques-6110
+
 - https://www.lucidchart.com/blog/how-to-estimate-agile-story-points
+
+### Code reviews
+- https://www.atlassian.com/agile/software-development/code-reviews
+
+- https://www.perforce.com/blog/qac/9-best-practices-for-code-review
+
+- https://www.brightspot.com/products/developer-life-5-reasons-why-the-code-review-process-is-critical-for-developers
+
+- https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/
+
+- https://www.freecodecamp.org/news/code-review-the-ultimate-guide-aa45c358bbf5/
