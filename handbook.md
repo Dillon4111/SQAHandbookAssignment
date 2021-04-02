@@ -124,7 +124,67 @@ A code review is when one member of the team checks another members code to exam
 </p>
 
 
-## **Code Review Techniques**
+# **Code Review Techniques**
+
+## **Line and Time Management**
+* Review fewer than 400 lines of code at a time. 
+
+A couple of years prior Cisco did a huge Case Study on lightweight code review measures. 
+As indicated by Cisco, to get ideal adequacy, developers should survey less than 200-400 lines of code (LOC) at a time. It additionally influences the capacity to discover flaws inside the actual code. 
+In practise, an hour is a decent amount of time as anything more  could yield a 70-90% defect finding. The mind can adequately handle a limited amount of data at a time; beyond 400 LOC, the capacity to discover deficiency decreases. 
+Additionally, following an hour the reviewer can become burnt out and will not be as productive in discovering mistakes and imperfections. 
+
+<p align="center">
+  <img src="http://blog.overops.com/wp-content/uploads/2017/01/density.png?_ga=2.90773850.1357615081.1617277416-1155500591.1617277416"
+        alt="Markdown Monster icon" width="350"/>
+</p>
+
+Furthermore, Cisco brings up that the ideal examination rate is under 300-500 LOC/hour. This ratio permits developers to take as much time as necessary with the code review, examine it and discover the issues that may be in it.
+While evaluating at a quicker pace of 400-500 LOC/hour, there’s an extreme drop-off in effectiveness, and when the rate goes more than 1000 LOC/hour, you can be almost certain the reviewer is simply looking through the code without really checking it.
+
+<p align="center">
+  <img src="http://blog.overops.com/wp-content/uploads/2017/01/defect.png?_ga=2.22682363.1357615081.1617277416-1155500591.1617277416"
+        alt="Markdown Monster icon" width="350"/>
+</p>
+
+## **Set Objectives and Principles**
+Prior to executing a code review, it is critical to choose significant measurements and to characterize specific objectives. The Objectives include acceptable coding standards in the organisation. Having set norms ensures that every product item created and reviewed in the organization satisfies the companies standards.
+
+
+When reviewing code considering certain questions can help to focus on the right things. For example, they may assess the code to answer:
+
+1.    Do I understand what the code does? 
+
+2.    Does the code work as I anticipate that it should? 
+
+3.    Does this code satisfy administrative prerequisites?
+
+
+## **Capture metrics**
+Before implementing a process, the team should determine how they will measure the effectiveness of the code review.
+
+* **Time in review** - Determining how long every developer spends on code reviews is a measure of how engaged every developer in the team is.
+
+* **Defect count**- How many defects were recorded of the code review session that can count towards the performance of the review. 
+
+* **Percent of code reviewed** - Every developer in the team needs to review each other's code. The percent of code reviewed per developer assists with responsibility in the review process.
+
+## **Establish Reviewee Responsibilities**
+ 
+ * **Make smaller pull requests** - Making more modest pull requests is the most ideal approach to accelerate the code review time. Keeping pull requests small allows reviewers to iterate swiftly and efficiently.
+
+ * **Avoid changes during the code review** - Major changes in the code review fundamentally resets the whole review process. In the event that the reviewee needs to make significant changes, the reviewee may allow the initial code submission to be completed and then follow-up with the additional changes. 
+
+## **Use agendas**
+ Agendas are the best method to take out regularly made mistakes and to battle the difficulties of defect findings. Code review agendas additionally furnish team members with clear assumptions for each review and can be useful to track and report for improvement purposes.
+
+ ## **Encourage a Positive Culture**
+ Cultivating a positive culture around code reviews is significant, as they assume an essential part in item quality. Code reviews can create tension in interpersonal team relationships. By cultivating a positive culture, it will assist the team with appreciating (as opposed to fear) feedback from code reviews.
+
+ <p align="left">
+  <img src="https://www.yourerc.com/hubfs/Imported_Blog_Media/Workplace-Culture-What-it-Is-Why-it-Matters-How-to-Define-It-3.jpg"
+        alt="Markdown Monster icon" width="350"/>
+</p>
 
 
 ## **Resources**
